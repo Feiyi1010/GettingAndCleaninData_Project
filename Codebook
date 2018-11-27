@@ -1,0 +1,83 @@
+ [1] "subject"
+ Identifies the subject who performed the activity for each window sample. 
+ Range from 1 to 30.
+ 
+ [2] "activity" 
+ The name of the activity performed by the subject.
+         WALKING
+         WALKING_UPSTAIRS
+         WALKING_DOWNSTAIRS
+         SITTING           
+         STANDING
+         LAYING    
+ The rest are the means of certain subject who performed certain activity measured by certain measurements.
+ 'time' means it is a time domain signal.
+ 'frequency' means a Fast Fourier Transform (FFT) was applied to these signals.
+ 'Mean' and 'Standard deviation' indicates how the set of variables were estimated from signals.
+ '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+ [3] "timeBodyAcc-Mean-X"  
+ [4] "timeBodyAcc-Mean-Y"                             
+ [5] "timeBodyAcc-Mean-Z"                             
+ [6] "timeBodyAcc-Standard deviation-X"               
+ [7] "timeBodyAcc-Standard deviation-Y"               
+ [8] "timeBodyAcc-Standard deviation-Z"               
+ [9] "timeGravityAcc-Mean-X"                          
+[10] "timeGravityAcc-Mean-Y"                          
+[11] "timeGravityAcc-Mean-Z"                          
+[12] "timeGravityAcc-Standard deviation-X"            
+[13] "timeGravityAcc-Standard deviation-Y"            
+[14] "timeGravityAcc-Standard deviation-Z"            
+[15] "timeBodyAccJerk-Mean-X"                         
+[16] "timeBodyAccJerk-Mean-Y"                         
+[17] "timeBodyAccJerk-Mean-Z"                         
+[18] "timeBodyAccJerk-Standard deviation-X"           
+[19] "timeBodyAccJerk-Standard deviation-Y"           
+[20] "timeBodyAccJerk-Standard deviation-Z"           
+[21] "timeBodyGyro-Mean-X"                            
+[22] "timeBodyGyro-Mean-Y"                            
+[23] "timeBodyGyro-Mean-Z"                            
+[24] "timeBodyGyro-Standard deviation-X"              
+[25] "timeBodyGyro-Standard deviation-Y"              
+[26] "timeBodyGyro-Standard deviation-Z"              
+[27] "timeBodyGyroJerk-Mean-X"                        
+[28] "timeBodyGyroJerk-Mean-Y"                        
+[29] "timeBodyGyroJerk-Mean-Z"                        
+[30] "timeBodyGyroJerk-Standard deviation-X"          
+[31] "timeBodyGyroJerk-Standard deviation-Y"          
+[32] "timeBodyGyroJerk-Standard deviation-Z"          
+[33] "timeBodyAccMag-Mean"                            
+[34] "timeBodyAccMag-Standard deviation"              
+[35] "timeGravityAccMag-Mean"                         
+[36] "timeGravityAccMag-Standard deviation"           
+[37] "timeBodyAccJerkMag-Mean"                        
+[38] "timeBodyAccJerkMag-Standard deviation"          
+[39] "timeBodyGyroMag-Mean"                           
+[40] "timeBodyGyroMag-Standard deviation"             
+[41] "timeBodyGyroJerkMag-Mean"                       
+[42] "timeBodyGyroJerkMag-Standard deviation"         
+[43] "frequencyBodyAcc-Mean-X"                        
+[44] "frequencyBodyAcc-Mean-Y"                        
+[45] "frequencyBodyAcc-Mean-Z"                        
+[46] "frequencyBodyAcc-Standard deviation-X"          
+[47] "frequencyBodyAcc-Standard deviation-Y"          
+[48] "frequencyBodyAcc-Standard deviation-Z"          
+[49] "frequencyBodyAccJerk-Mean-X"                    
+[50] "frequencyBodyAccJerk-Mean-Y"                    
+[51] "frequencyBodyAccJerk-Mean-Z"                    
+[52] "frequencyBodyAccJerk-Standard deviation-X"      
+[53] "frequencyBodyAccJerk-Standard deviation-Y"      
+[54] "frequencyBodyAccJerk-Standard deviation-Z"      
+[55] "frequencyBodyGyro-Mean-X"                       
+[56] "frequencyBodyGyro-Mean-Y"                       
+[57] "frequencyBodyGyro-Mean-Z"                       
+[58] "frequencyBodyGyro-Standard deviation-X"         
+[59] "frequencyBodyGyro-Standard deviation-Y"         
+[60] "frequencyBodyGyro-Standard deviation-Z"         
+[61] "frequencyBodyAccMag-Mean"                       
+[62] "frequencyBodyAccMag-Standard deviation"         
+[63] "frequencyBodyBodyAccJerkMag-Mean"               
+[64] "frequencyBodyBodyAccJerkMag-Standard deviation" 
+[65] "frequencyBodyBodyGyroMag-Mean"                  
+[66] "frequencyBodyBodyGyroMag-Standard deviation"    
+[67] "frequencyBodyBodyGyroJerkMag-Mean"              
+[68] "frequencyBodyBodyGyroJerkMag-Standard deviation"
